@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dhanns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">
+                <h1>My Profile</h1>
+            </div>
+            <div class="toggle-button" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" onclick="toggleMenu()">Tentang</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#portfolio" onclick="toggleMenu()">Portofolio</a></li>
+                <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+            <div class="toggle-dark-mode" onclick="toggleDarkMode()">
+                <span class="moon">&#9790;</span>
+                <span class="sun">&#9728;</span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-info">
+                    <div class="profile-text">
+                        <h2>CIAO!!! BENVENUTO...</h2>
+                        <p>(HALOO!!! SELAMAT DATANG...)</p>
+                        <h3>👋👋👋</h3>
+                    </div>
+                    <img src="img/imgprofile.jpeg" alt="Foto Profil">
+                    <div class="profile-text">
+                        <h3>Nur Ramadhani Saputra</h3>
+                        <p>------------</p>
+                        <p>Haiii... <br/> Perkenalkan Nama saya Nur Ramadhani Saputra. Saya merupakan salah satu siswa yang bersekolah di SMK Negeri 2 Depok dengan konsentrasi keahlian SIJA atau Sistem Informasi Jaringan dan Aplikasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <img src="img/htmllogo.png" alt="HTML">
+                    <h3>HTML</h3>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <img src="img/csslogo.png" alt="CSS">
+                    <h3>CSS</h3>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <img src="img/pythonlogo.png" alt="Python">
+                    <h3>Python</h3>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <img src="img/jslogo.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <img src="img/mysqllogo.png" alt="MySQL">
+                    <h3>MySQL</h3>
+                    <p></p>
+                </div>
+                <div class="skill">
+                    <img src="img/phplogo.png" alt="PHP">
+                    <h3>PHP</h3>
+                    <p></p>
+                </div>
+                <!-- Tambahkan lebih banyak skill sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <a href="https://skilvul.com/courses/python-dasar/student/clk68uuy6059101qkmu05drbp/" target="_blank">
+                        <figure>
+                            <img src="img/Skilvul-SkilBadge-Python Dasar (1)_page-0001.jpg" alt="Sertifikat 1">
+                            <figcaption>Skilvul SkillBadge Python Dasar</figcaption>
+                        </figure>
+                    </a>
+                    <h3>Skilvul SkillBadge Python Dasar</h3>
+                </div>
+                <!-- <div class="portfolio-item">
+                    <a href="sertifikat2_link.html" target="_blank">
+                        <figure>
+                            <img src="sertifikat2.jpg" alt="Sertifikat 2">
+                            <figcaption>Keterangan untuk Sertifikat 2</figcaption>
+                        </figure>
+                    </a>
+                </div> -->
+                <!-- Tambahkan lebih banyak foto sertifikat atau pencapaian lainnya -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="blog" class="section blog-section">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <a href="https://nurramadhans.sija-bridge.tech" target="_blank">
+                        <img src="img/dhancasualstore.png" alt="Preview Blog 1">
+                        <div class="overlay">
+                            <h3>Dhans Casual Store</h3>
+                        </div>
+                    </a>
+                    <h3>Dhans Casual Store</h3>
+                </div>
+                <div class="blog-post">
+                    <a href="" target="_blank">
+                        <img src="img/myprofile.png" alt="Preview Blog 2">
+                        <div class="overlay">
+                            <h3>My Profile</h3>
+                        </div>
+                    </a>
+                    <h3>My Profile</h3>
+                </div>
+                <div class="blog-post">
+                    <a href="https://nrs20.blogspot.com/2019/10/tempat-wisata-jogja.html" target="_blank">
+                        <img src="img/nrsblog22.png" alt="Preview Blog 2">
+                        <div class="overlay">
+                            <h3>NRS BLOG</h3>
+                        </div>
+                    </a>
+                    <h3>NRS BLOG</h3>
+                </div>
+                <!-- Tambahkan lebih banyak preview blog -->
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contact Me !!</h2>
+            <div class="social-media">
+                <a href="https://www.facebook.com/nurramadhani.saputra.5?mibextid=ZbWKwL" target="_blank">
+                    <img src="img/facebooklogo.png" alt="Facebook">
+                </a>
+                <a href="https://t.me/dhannrs" target="_blank">
+                    <img src="img/telelogo.png" alt="Telegram">
+                </a>
+                <a href="https://www.instagram.com/nrmdhnsptr?igsh=MTk4MmxlaWE5em9oaQ==" target="_blank">
+                    <img src="img/instagram logo.png" alt="Instagram">
+                </a>
+            </div>
+            <a href="mailto:nurramadhanisaputra@gmail.com">
+                <button class="email-button">Hubungi Saya !!!</button>
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- <footer>
+        <div class="container">
+            <p>&copy; 2024 Profil Saya. Dibuat dengan cinta oleh Anda.</p>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
